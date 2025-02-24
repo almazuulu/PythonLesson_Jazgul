@@ -67,7 +67,19 @@ process_data((1, 2, 3, 4, 5))
 # Вернёт {"min": 1, "max": 5, "average": 3.0}
 """
 
-# Your code here...
+def process_data(nums: tuple[int, ...]) -> dict[str, float]:
+    """ 
+    Function that accepts tuple of integer numbers and then gives 
+    stats including min, max and average values out of the nums
+    
+    Params:
+        nums(tuple[int, ...]): Tuple of integer numbers as input
+    Return:
+        stats(dict[str, float]): Stats of min, max average values that's been found from the calculation
+    Exception:
+        ValueError, ZeroDevisionError
+    """
+    pass
 
 
 # Task 5
@@ -91,4 +103,15 @@ merge_sets(set1, set2, set3)
 # }
 """
 
-# Your code here...
+def merge_sets(s1: set[str], s2: set[str], s3: set[str]) -> dict[str, set[str]]:
+    """ 
+    Function that can show functionalities of set by finding intersection, unique, union values
+    
+    Params:
+        s1 (set[str]): First set of str values
+        s2 (set[str]): Second set of str values
+        s3 (set[str]): Third set of str values
+    Return:
+        Stats (dict[str, set[str]]): Stats of uninon, intersection, unique values
+    """
+    pass
