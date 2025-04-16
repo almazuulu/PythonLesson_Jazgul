@@ -114,10 +114,15 @@ print("=========")
 ff1 = Firefighter("Oleg", 33, "Frunze 123", "Level 23")
 ff1.display_info()
 
+ff1.name = 'Timur'
+ff1.display_info()
+
 print("=========")
 ff2 = ChefFireFighter("Stpean", 45, "LEv Tolstoy 77", "General", "Fire station 5")
 ff2.give_orders()
-        
+
+ff1.display_info()
+print(ff1.name)
     
     
         
