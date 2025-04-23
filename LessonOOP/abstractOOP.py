@@ -17,8 +17,6 @@ class Shape(ABC):
     @abstractmethod
     def display(self):
         pass
-    
-
 
 class Circle(Shape):
     def __init__(self, radius):
