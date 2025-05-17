@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 # Работа с сериями
 s = pd.Series([20, 10, 30])
 print(s)
